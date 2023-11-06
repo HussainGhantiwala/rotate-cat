@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.rotate{
+    width: 400px;
+}
+.button{
+    background-color: transparent;
+    border: 3px solid black;
+    color: black;
+    user-select: none;
+    letter-spacing: 3px;
+    font-size: 2em;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: box-shadow 0.25s;
+
+}
+.button:hover{
+    box-shadow: 5px 5px black;
+}
+.button:active{
+    color: grey;
+}
+
+@media only screen and (max-width:480px){
+#rotate-cat{
+        width: 200px;
+    }
+}
